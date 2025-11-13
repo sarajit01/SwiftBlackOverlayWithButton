@@ -15,7 +15,7 @@ extension View {
                         color ?? Color.green
                         
                         .opacity(
-                            opacity ?? 0.5
+                            opacity ?? 0.7
                         ))
                 
                 
