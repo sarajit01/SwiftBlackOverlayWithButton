@@ -12,7 +12,7 @@ extension View {
                 Rectangle()
                     .fill(
                         
-                        color ?? Color.black
+                        color ?? Color.green
                         
                         .opacity(
                             opacity ?? 0.5
