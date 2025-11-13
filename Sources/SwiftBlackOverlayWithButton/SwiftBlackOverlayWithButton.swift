@@ -2,7 +2,7 @@ import SwiftUI
 
 @available(macOS 12.0, *)
 extension View {
-    public func overlayWithBtn() -> some View {
+    public func overlayWithBtn(color: Color) -> some View {
         // all under a ZStack
         ZStack {
             
@@ -10,7 +10,7 @@ extension View {
             overlay {
                 
                 Rectangle()
-                    .fill(Color.black.opacity(0.3))
+                    .fill(color.opacity(0.3))
                 
                 
             }
